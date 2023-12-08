@@ -20,9 +20,11 @@ export const generateSummary = async (summaryMode) => {
     }
 
     // Set prompt with instructions and content to summarize
-    const prompt = summaryMode == 'general'
-        ? `Instructions: Generate a mini rhyme heading for the ${app.pageContentLang} language with correct grammer. Your response should be provide an overview of the information presented in the content and should not include personal comments.\n\nContent: ${app.pageContentText}`
-        : `Summary Mode: Bullet-Points\n\nInstructions: a brief summary of the bias in 2-3 points of ${app.pageContentLang} language. Provide a concise overview of the information without personal comments.\n\nContent: ${app.pageContentText}`;
+    const prompt = `create a heading which rhymes follwed by bullet points of bias of the following article  ${app.pageContentText}`;
+    // summaryMode == 'general'
+
+    //     ? `Instructions: Generate a mini rhyme heading for the ${app.pageContentLang} language with correct grammer. Your response should be provide an overview of the information presented in the content and should not include personal comments.\n\nContent: ${app.pageContentText}`
+    //     : `Summary Mode: Bullet-Points\n\nInstructions: a brief summary of the bias in 2-3 points of ${app.pageContentLang} language. Provide a concise overview of the information without personal comments.\n\nContent: ${app.pageContentText}`;
 
     // const shouldGenerateRhyme = Math.random() < 0.5;
 

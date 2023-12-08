@@ -1,9 +1,9 @@
 {
-    "name": "GPT Summarizer",
-    "version": "1.1.0",
-    "description": "A Chrome extension that utilizes ChatGPT to provide a summarized version of web articles.",
+    "name": "No nuisance news",
+    "version": "1.0.0",
+    "description": "No nuisance news is chrome extension which changes major headlines of the news article to mini rhyme and gives you brief summary of the bias in the article",
     "manifest_version": 3,
-    "author": "M.Ho3ein Beshavard",
+    "author": "Karri Naga Durga Amrutha",
     "icons": {
         "16": "assets/icons/icon-16.png",
         "32": "assets/icons/icon-32.png",

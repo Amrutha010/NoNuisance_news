@@ -11,12 +11,11 @@ const showOverviewState = (time, words, callback) => {
                     <div class="gpts-summary-mode">
                         <p>Summary Mode: </p>
                         <select id="gpts-summary-mode">
-                            <option value="general">Mini Rhyme</option>
-                            <option value="bullet">Bias</option>
+                            <option value="general">Generate Rhyme and Bias</option>
                         </select>
                     </div>
                     <div class="gpts-generate-btn">
-                        Summarize
+                        Generate Rhyme and Bias
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M27 16V22" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M24 19H30" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
